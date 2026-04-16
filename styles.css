@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    outline: 1px solid black; 
+    /* outline: 1px solid black;  */
 }
 
 body {
@@ -116,12 +116,12 @@ body {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: row;
-    height: 300px;
+    height: 150px;
     font-size: 36px;
     font-weight: 300;
     justify-content: center;
     align-items: center;
-    padding: 15%;
+    padding: 10%;
 }
 
 .quote .text {
@@ -141,21 +141,52 @@ body {
 /* Call to action */
 
 .action {
+    padding: 100px;
+    flex: 1;
+}
+
+.blue-box {
+    background-color: #3882f6;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 15px 30px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.center {
+    padding: 20px 60px;
+}
+
+.center h3,
+.center p {
+    margin: 0;
+}
+
+.action button {
+    padding: 15px 30px;
+    margin-right: 10%;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-}
-
-.action div {
-    background-color: #3882f6;
-    width: 80%;
-}
-
-.action div .center {
-    display: flex;
-    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
